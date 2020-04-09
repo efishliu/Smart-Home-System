@@ -1,0 +1,13 @@
+use sensor;
+create table sensorinfo
+(id int default 0,
+flag varchar(10) default "OPEN",
+sleep_flag varchar(10) default "CLOSE",
+set_temp float default 30,
+set_hum float default 30,
+temp float default 0,
+hum float default 0,
+ill float default 0,
+motor1_status varchar(10) default "CLOSE",
+motor2_status varchar(10) default "CLOSE"
+);

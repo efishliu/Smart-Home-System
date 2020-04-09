@@ -1,0 +1,46 @@
+mysql> desc sensorinfo;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| id            | int(11)     | YES  |     | 0       |       |
+| flag          | varchar(10) | YES  |     | OPEN    |       |
+| sleep_flag    | varchar(10) | YES  |     | CLOSE   |       |
+| set_temp      | float       | YES  |     | 30      |       |
+| set_hum       | float       | YES  |     | 30      |       |
+| temp          | float       | YES  |     | 0       |       |
+| hum           | float       | YES  |     | 0       |       |
+| ill           | float       | YES  |     | 0       |       |
+| motor1_status | varchar(10) | YES  |     | CLOSE   |       |
+| motor2_status | varchar(10) | YES  |     | CLOSE   |       |
++---------------+-------------+------+-----+---------+-------+
+10 rows in set (0.06 sec)
+
+mysql> desc temp_hum;
++---------+------------------+------+-----+---------+----------------+
+| Field   | Type             | Null | Key | Default | Extra          |
++---------+------------------+------+-----+---------+----------------+
+| id      | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| temp    | float            | YES  |     | NULL    |                |
+| hum     | float            | YES  |     | NULL    |                |
+| addtime | datetime         | YES  |     | NULL    |                |
++---------+------------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+mysql> desc photores;
++--------------+------------------+------+-----+---------+----------------+
+| Field        | Type             | Null | Key | Default | Extra          |
++--------------+------------------+------+-----+---------+----------------+
+| id           | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| illumination | float            | YES  |     | NULL    |                |
+| addtime      | datetime         | YES  |     | NULL    |                |
++--------------+------------------+------+-----+---------+----------------+
+3 rows in set (0.09 sec)
+
+mysql> desc log;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| addtime | datetime    | YES  |     | NULL    |       |
+| data    | varchar(40) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
