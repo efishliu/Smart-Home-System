@@ -4,7 +4,7 @@ Smart-Home是一个模拟的智能家居系统，通过SHT10 单片数字温湿�
 
 ## 工具和环境  
 *  SHT10单片传感器，IAR集成开发环境，串口助手
-*  Django, python Tkinter,matplotlib,mysql  
+*  Django, python2.7, pymysql,Tkinter,matplotlib,mysql  
 
 ## 概要设计
 * **系统架构**  
@@ -37,6 +37,18 @@ Smart-Home是一个模拟的智能家居系统，通过SHT10 单片数字温湿�
 触摸传感器的数据转换：[Touch.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Touch.py)    
 3.LED灯光控制：[PWM.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/PWM.py)；
 电机控制[Motor.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Motor.py)  
+
+* **本地与云端数据库连接：**[mysqlcon.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/mysqlcon.py)  
+
+* **数据可视化处理：**  
+1.PC端可视化处理：[Display.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Display.py)  
+<div align=center>
+<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/system.jpg?raw=true" width = 50% height = 50% />
+</div>   
+2.Web端可视化处理：[Web](https://github.com/efishliu/Smart-Home-System/tree/master/Web)  
+<div align=center>
+<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/system.jpg?raw=true" width = 50% height = 50% />
+</div>  
 
   
 
