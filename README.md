@@ -43,11 +43,12 @@ Smart-Home是一个模拟的智能家居系统，通过SHT10 单片数字温湿�
 * **数据可视化处理：**  
 1.PC端可视化处理：[Display.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Display.py)  
 <div align=center>
-<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/system.jpg?raw=true" width = 50% height = 50% />
+<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/PC.png?raw=true" width = 50% height = 50% />
 </div>   
+
 2.Web端可视化处理：[Web](https://github.com/efishliu/Smart-Home-System/tree/master/Web)  
 <div align=center>
-<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/system.jpg?raw=true" width = 50% height = 50% />
+<img src="https://github.com/efishliu/Smart-Home-System/blob/master/image/Web.png?raw=true" width = 50% height = 50% />
 </div>  
 
   
