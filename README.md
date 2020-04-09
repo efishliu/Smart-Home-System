@@ -30,6 +30,13 @@ Smart-Home是一个模拟的智能家居系统，通过SHT10 单片数字温湿�
 | [Touch](https://github.com/efishliu/Smart-Home-System/tree/master/SerialApp/Touch) | 触摸传感器 | [PhotoRes](https://github.com/efishliu/Smart-Home-System/tree/master/SerialApp/PhotoRes) | 光敏传感器 |  
 | [PWM](https://github.com/efishliu/Smart-Home-System/tree/master/SerialApp/PWM) | LED灯 | [Motor](https://github.com/efishliu/Smart-Home-System/tree/master/SerialApp/Motor) | 电机 |  
 
-*
+* **端口数据读取与处理**  
+1.USB串口读取数据：[Coordinator.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Coordinator.py)  
+2.温湿度传感器数据转换：[TempAndHum.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/TempAndHum.py)；
+光敏传感器数据转换：[PhotoResisitor.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/PhotoResisitor.py)；
+触摸传感器的数据转换：[Touch.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Touch.py)    
+3.LED灯光控制：[PWM.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/PWM.py)；
+电机控制[Motor.py](https://github.com/efishliu/Smart-Home-System/blob/master/Smart-Home/Motor.py)  
+
   
 
